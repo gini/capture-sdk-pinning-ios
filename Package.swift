@@ -25,7 +25,7 @@ let package = Package(
         
         .target(
             name: "GiniCaptureSDKPinning",
-            dependencies: ["GiniBankAPILibraryPinning"]),
+            dependencies: ["GiniBankAPILibraryPinning", "GiniCaptureSDK"]),
         .testTarget(
             name: "GiniCaptureSDKPinningTests",
             dependencies: ["GiniCaptureSDKPinning"],
